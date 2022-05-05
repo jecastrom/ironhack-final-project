@@ -75,7 +75,7 @@ I am going to build:
 
 == Dataset
 
-https://www.kaggle.com/datasets/carrie1/ecommerce-data[E-Commerce Data]
+{https://www.kaggle.com/datasets/carrie1/ecommerce-data}[E-Commerce Data]
 
 Actual transactions from UK retailer
 
