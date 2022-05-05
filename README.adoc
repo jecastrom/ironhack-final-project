@@ -64,7 +64,14 @@ toc::[]
 
 = About the project:
 
+In essence, I want to mimic a e-Commerce platform to make sure that once the data is coming in, the data is getting processed, stored then be accessible to be used and visualized.
 
+I am going to build:
+* a data ingestion pipeline, with API, Lambda and Kenisis.
+* a streaming pipeline to raw data on S3.
+* a storage element to DynamoDB and a visualization of this data with an API.
+* Streaming data to a data warehouse with Redshift.
+* a batch processing pipeline for bulk import.
 
 == Dataset
 
