@@ -69,7 +69,7 @@ In essence, I want to mimic a e-Commerce platform to make sure that once the dat
 I am going to build:
 * a data ingestion pipeline, with API, Lambda and Kenisis.
 * a streaming pipeline to raw data on S3.
-* a storage element to DynamoDB and a visualization of this data with an API.
+* a storage element to DynamoDB (NoSQL) and a visualization of this data with an API.
 * Streaming data to a data warehouse with Redshift.
 * a batch processing pipeline for bulk import.
 
@@ -113,6 +113,9 @@ Most sold product h/m/y
 Highest invoices
 
 Customer insights
+
+== Relational storage vs Non-relational storage
+
 
 ====
 ''''
