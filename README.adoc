@@ -112,7 +112,7 @@ Most sold product h/m/y
 
 Highest invoices
 
-Customer insigts
+Customer insights
 
 ====
 ''''
