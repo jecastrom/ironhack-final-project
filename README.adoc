@@ -62,7 +62,50 @@ toc::[]
 {description}
 
 
-= Instructions:
+= About the project:
+
+
+
+== Dataset
+
+https://www.kaggle.com/datasets/carrie1/ecommerce-data[E-Commerce Data]
+
+Actual transactions from UK retailer
+
+From https://www.kaggle.com/datasets/carrie1/ecommerce-data
+
+CSV files
+
+Customer ID
+Invoice number 
+Description of the item
+invoice date
+Unit price and quantity field
+
+540.000 rows
+
+
+
+Main goal
+: User / Business
+
+	· Transactions will be started in the e-Commerce platform, then this transactions must be, stored in a single location.
+	· Customers need access to the data (purchases history)
+
+
+Secondary goal: Business intelligence goals
+This are things that make optimize the business
+
+For example:
+
+Average sales per hour/day/month/year
+
+Most sold product h/m/y
+
+Highest invoices
+
+Customer insigts
+
 ====
 ''''
 ====
