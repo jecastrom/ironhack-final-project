@@ -89,8 +89,9 @@ Unit price and quantity field
 Main goal
 : User / Business
 
-	· Transactions will be started in the e-Commerce platform, then this transactions must be, stored in a single location.
-	· Customers need access to the data (purchases history)
+* Transactions will be started in the e-Commerce platform, then this transactions must be, stored in a single location.
+
+* Customers need access to the data (purchases history)
 
 
 Secondary goal: Business intelligence goals
