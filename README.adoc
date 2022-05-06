@@ -182,7 +182,10 @@ image::https://user-images.githubusercontent.com/63274055/167196783-afbbef55-fe3
  into Kinesis the Lambda Function automatically runs and processes the data right away and puts it 
  into a destination.
 
- Batch Processing in another hand starts with the Scheduler. Once the data is put into the data source (S3 Kinesis). A Scheduler(CloudWatch) is going to start and activate the Processing (Lambda Function). The Processing is going to connect to the data source, pull the data,process the data then write the data to the destination.
+ Batch Processing in another hand starts with the Scheduler. Once the data is put into the data 
+ source (S3 Kinesis). A Scheduler(CloudWatch) is going to start and activate the Processing 
+ (Lambda Function). The Processing is going to connect to the data source, pull the data,
+ process the data then write the data to the destination.
 
 
 ====
