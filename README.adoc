@@ -155,7 +155,7 @@ image::https://user-images.githubusercontent.com/63274055/167126585-fea1d925-62d
 
 === Connect
 
-image::https://user-images.githubusercontent.com/63274055/167153132-d42160c2-3238-4512-991c-c911275bc5e3.png[width=600]
+image::https://user-images.githubusercontent.com/63274055/167153132-d42160c2-3238-4512-991c-c911275bc5e3.png[width=800]
 ====
 ''''
 ====
