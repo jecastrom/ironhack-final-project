@@ -152,6 +152,10 @@ In terms of how I am going to visualize the data I opted for Tableau, with an AP
 === Client
 
 image::https://user-images.githubusercontent.com/63274055/167126585-fea1d925-62df-42bf-97cd-b9a62a4efa9e.png[width=600]
+
+=== Connect
+
+image::https://user-images.githubusercontent.com/63274055/167153132-d42160c2-3238-4512-991c-c911275bc5e3.png[width=600]
 ====
 ''''
 ====
