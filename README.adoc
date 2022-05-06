@@ -162,6 +162,9 @@ image::https://user-images.githubusercontent.com/63274055/167153132-d42160c2-323
 In this Connect face we have the Client which is sending data to our API Gateway that is hosting a URL.
 
 When the data is sent to the API, in the background is living a Lambda function that is going to get triggered by the API Gateway and that is processing the JSON we have and it is going to access a Buffer and send it into Kinesis. 
+
+=== Buffer
+
 ====
 ''''
 ====
