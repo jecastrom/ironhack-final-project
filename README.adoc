@@ -117,7 +117,7 @@ Customer insights
 
 == Relational storage vs Non-relational storage
 
-image::https://user-images.githubusercontent.com/63274055/167107915-9c1db302-e446-433f-816f-ed4eb681dbc6.png[width=400]
+image::https://user-images.githubusercontent.com/63274055/167107915-9c1db302-e446-433f-816f-ed4eb681dbc6.png[width=600]
 
 ====
 ''''
