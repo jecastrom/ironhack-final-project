@@ -165,6 +165,7 @@ When the data is sent to the API, in the background is living a Lambda function 
 
 === Buffer
 
+image::https://user-images.githubusercontent.com/63274055/167160182-a5625423-90fc-49e2-b624-24b3315769b9.png                             [width=800]
 ====
 ''''
 ====
