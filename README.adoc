@@ -189,7 +189,7 @@ image::https://user-images.githubusercontent.com/63274055/167196783-afbbef55-fe3
 
 === Storage
 
-image::https://user-images.githubusercontent.com/63274055/167223592-e36eb180-ea7e-4d74-9f7f-1acde7339a87.png[width=800]
+image::https://user-images.githubusercontent.com/63274055/167223592-e36eb180-ea7e-4d74-9f7f-1acde7339a87.png[width=600]
 
 
 ====
