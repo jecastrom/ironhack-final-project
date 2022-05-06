@@ -173,7 +173,7 @@ The Lambda Function is getting triggered by the API Gateway and it is going to s
 
 == Process
 
-
+image::https://user-images.githubusercontent.com/63274055/167196783-afbbef55-fe3e-4019-a9da-6de1ea264188.png[width=800]
 ====
 ''''
 ====
