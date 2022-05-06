@@ -177,7 +177,8 @@ image::https://user-images.githubusercontent.com/63274055/167196783-afbbef55-fe3
 
 
  The are two ways of processing data. We can either do stream processing or batch processing.
- When we think about Stream Processing we have a Source (Kinesis) and its sending data into Processing (Lambda Function which is triggered by a new Kinesis record), once new data is written into Kinesis the Lambda Function automatically runs and processes the data right away and puts it into a destination.
+ When we think about Stream Processing we have a Source (Kinesis) and its sending data into 
+ Processing (Lambda Function which is triggered by a new Kinesis record), once new data is written into Kinesis the Lambda Function automatically runs and processes the data right away and puts it into a destination.
 
  Batch Processing in another hand starts with the Scheduler. Once the data is put into the data source (S3 Kinesis). A Scheduler(CloudWatch) is going to start and activate the Processing (Lambda Function). The Processing is going to connect to the data source, pull the data,process the data then write the data to the destination.
 
