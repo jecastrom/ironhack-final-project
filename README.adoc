@@ -130,7 +130,7 @@ What I rather use here is a Non-relational wide column store.
 
 == Platform Design
 
-image::https://user-images.githubusercontent.com/63274055/167119770-8d0d992a-3627-4a1d-8286-b2686dd64dbc.png[width=600]
+image::https://user-images.githubusercontent.com/63274055/167119770-8d0d992a-3627-4a1d-8286-b2686dd64dbc.png[width=800]
 
 
 This is the blueprint of what I am going to build.
