@@ -170,6 +170,10 @@ image::https://user-images.githubusercontent.com/63274055/167160182-a5625423-90f
 Here we have Kinesis in the middle, a message queue. The way message queues work is that we have Producers and we have Consumers. The Producer is going to send data into the Message Queue and the Consumer is going to take data out of the Message Queue. In my case, the Producer is the Lambda Function that sits behind the API Gateway. 
 
 The Lambda Function is getting triggered by the API Gateway and it is going to send or produce the data string for Kinesis. So every message or every transaction or row that is coming in from the dataset that has been processed into JSON is going to be added into Kinesis. Finally we can have either a Lambda Function or we could have a Kinesis Firehose which will take the data back out.
+
+== Process
+
+
 ====
 ''''
 ====
