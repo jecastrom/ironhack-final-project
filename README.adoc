@@ -122,7 +122,9 @@ This is a snapshot of the data we are going to deal with:
 
 image::https://user-images.githubusercontent.com/63274055/167107915-9c1db302-e446-433f-816f-ed4eb681dbc6.png[width=600]
 
-At first glance, I would say that this is a very structured and simple dataset, it makes sense to store it in a structured way, in a relational database. It would take maximum four tables. Let#s say, Customer, Invoice, Stock and a table to help us to create a relationship between Invoice number + Stock codeID
+At first glance, I would say that this is a very structured and simple dataset, it makes sense to store it in a structured way, in a relational database. It would take maximum four tables. Let#s say, Customer, Invoice, Stock and a table to help us to create a relationship between Invoice number + Stock codeID. This database will then extract the data, transform it and send it to us by a result.
+
+On a small scale this setup is totally valid, however if we think of having millions of customers, all processing the data, specially when writing the data as invoices are being created all the time with many writes, needing to go fast, with every import indexes would need to be created, this setup would create extra levels of complexity and slowing down the platform.
 ====
 ''''
 ====
