@@ -122,7 +122,7 @@ This is a snapshot of the data we are going to deal with:
 
 image::https://user-images.githubusercontent.com/63274055/167107915-9c1db302-e446-433f-816f-ed4eb681dbc6.png[width=600]
 
-At first glance, I would say that this is a very structured dataset, it makes sense to store it in a structured way, in a relational database.
+At first glance, I would say that this is a very structured and simple dataset, it makes sense to store it in a structured way, in a relational database.
 ====
 ''''
 ====
