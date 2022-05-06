@@ -139,7 +139,15 @@ The Client is the way to actually process the data, which is going to be on my p
 
 Python will take lines out of the CSV file and send them over to the Connector, the API Gateway as a JSON string.
 
-Then 
+Then we have Kinesis as a Buffer.
+
+For the  Processing Framework I will use Lambda functions and when doing batch processing I'll use CloudWatch to actually trigger the Lambdas.
+
+As storage, I will opt for multiple options:
+
+Raw data is going to live on S3, everything coming in will be sent to S3. Data will be in a Non-SQL store, DynamoDB, the I will use Redshift as my data Warehouse.
+
+In terms of how I am going to visualize the data 
 
 ====
 ''''
