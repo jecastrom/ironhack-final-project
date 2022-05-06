@@ -125,6 +125,22 @@ image::https://user-images.githubusercontent.com/63274055/167107915-9c1db302-e44
 At first glance, I would say that this is a very structured and simple dataset, it makes sense to store it in a structured way, in a relational database. It would take maximum four tables. Let#s say, Customer, Invoice, Stock and a table to help us to create a relationship between Invoice number + Stock codeID. This database will then extract the data, transform it and send it to us by a result.
 
 On a small scale this setup is totally valid, however if we think of having millions of customers, all processing the data, specially when writing the data as invoices are being created all the time with many writes, needing to go fast, with every import indexes would need to be created, this setup would create extra levels of complexity and slowing down the platform.
+
+What I rather use here is a Non-relational wide column store.
+
+== Platform Design
+
+image::https://user-images.githubusercontent.com/63274055/167119770-8d0d992a-3627-4a1d-8286-b2686dd64dbc.png[width=600]
+
+
+This is the blueprint of what I am going to build.
+
+The Client is the way to actually process the data, which is going to be on my pc with the CSV file stored.there.
+
+Python will take lines out of the CSV file and send them over to the Connector, the API Gateway as a JSON string.
+
+Then 
+
 ====
 ''''
 ====
