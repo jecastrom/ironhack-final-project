@@ -191,6 +191,12 @@ process the data then write the data to the destination.
 
 image::https://user-images.githubusercontent.com/63274055/167223592-e36eb180-ea7e-4d74-9f7f-1acde7339a87.png[width=600]
 
+I am going to use S3 file storage, which is very simple to use and I will use it for bulk imports when we have transactions coming in as a file then we upload them to S3, triggering a bulk import then write it directly into DynamoDB and the Redshift Data Warehouse. I will use DynamoDB wide column store which is a non-relational database. 
+
+I will use it because for this business application I want to simulate in this project, in my opinion, it does not make sense to use a SQL database. DynamoDB is for the backend where the transactions are going to happen and where the "customer" or user is going visualize their data, in this case their invoices and the invoice detail.
+
+This project has a primary use case which is for the actual business and the user, then I have an Analytics use case which is secondary. For this analytics layer which is on top of the actual database layer, Redshift will be my data warehouse. This is to simulate what big companies do in this situations, having databases all over the company and they want to use analytics on top of this databases, so they pull data from this databases up into an analytics layer (into a data warehouse) where thy have then a storage and a way to accessing the data 
+
 
 ====
 ''''
