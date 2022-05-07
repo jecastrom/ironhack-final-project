@@ -208,7 +208,7 @@ This project has a primary use case which is for the actual business and the use
 ** Installed on pc
 ** Connects to Redshift
 
-== Data Pipelines
+== Planning the Data Pipelines
 
 
 
