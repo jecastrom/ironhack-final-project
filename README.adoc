@@ -243,7 +243,7 @@ Having the data buffered into Kinesis, the data needs to be processed and sent t
 === Visualization Pipeline API
 
 
-
+image::https://user-images.githubusercontent.com/63274055/167271582-c47599d6-1227-455f-b5f3-761de17f3d8f.png[width=600]
 
 ====
 ''''
