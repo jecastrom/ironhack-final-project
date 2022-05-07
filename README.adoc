@@ -212,6 +212,8 @@ This is to simulate what big companies do in this situations, having databases a
 
 == Planning the Data Pipelines
 
+Pipelines are the main vehicle that makes data science happen. Pipelines make sure that the data flows from the moment data gets in (Ingestion) through the whole platform and make the data accessible to other systems, data analysts, data scientist and internal users.
+
 === Data Ingestion Pipeline
 
 
