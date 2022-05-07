@@ -236,7 +236,9 @@ The idea here is to take the data that is in Kinesis Stream, trigger the Lambda 
 
 This pipeline is going to stream the data from Kinesis into DynamoDB.
 
-Having the data buffered into Kinesis, the data needs to be processed and sent to DynamoDB.
+Having the data buffered into Kinesis, the data needs to be processed and sent to DynamoDB. This pipeline is similar to the previous one, I am going to take the Kinesis stream data (messages), trigger a Lambda Function with it each time it comes in, and this Lambda Function then re-processes and re-formats the data according to how I am going to then query it later.
+
+
 ====
 ''''
 ====
