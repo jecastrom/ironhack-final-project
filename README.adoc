@@ -216,6 +216,8 @@ Pipelines are the main vehicle that makes data science happen. Pipelines make su
 
 === Data Ingestion Pipeline for high ingestion loads
 
+image::https://user-images.githubusercontent.com/63274055/167260893-0038d3ed-83af-425e-a66c-ed5b188c04bd.png[width=800]
+
 I am going to create a Client that simulates the streaming of the data. It has the CSV file from Kaggle.
 Then my aim is to send in rows from the CSV file as JSON into the url of the API gateway.
 
