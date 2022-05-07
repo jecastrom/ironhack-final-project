@@ -225,6 +225,9 @@ The Client is going to basically take each row of the CSV file, convert it into 
 
 Once it is on the API gateway, where the URL is hosted, there is going to be a Lambda Function triggered, then this Lambda Function is going to take the body of tke post and it is going to write it into Kinesis.
 
+=== Stream to S3 Raw Storage Pipeline
+
+image::https://user-images.githubusercontent.com/63274055/167261665-f99cff9d-fe81-40ad-b7ac-34f6e2a0020c.png[width=800]
 
 ====
 ''''
