@@ -229,6 +229,8 @@ Once it is on the API gateway, where the URL is hosted, there is going to be a L
 
 image::https://user-images.githubusercontent.com/63274055/167261665-f99cff9d-fe81-40ad-b7ac-34f6e2a0020c.png[width=800]
 
+The idea here is to take the data that is in Kinesis Stream, trigger the Lambda with it each and every time something is inserted into the Kinesis Data Stream then puts the data into a S3 bucket as a file.
+
 ====
 ''''
 ====
