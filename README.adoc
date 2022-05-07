@@ -197,6 +197,10 @@ I will use it because for this business application I want to simulate in this p
 
 This project has a primary use case which is for the actual business and the user, then I have an Analytics use case which is secondary. For this analytics layer which is on top of the actual database layer, Redshift will be my data warehouse. This is to simulate what big companies do in this situations, having databases all over the company and they want to use analytics on top of this databases, so they pull data from this databases up into an analytics layer (into a data warehouse) where thy have then a storage and a way to accessing the data. This is not for transactions or business related, it is actually a duplication of the data.
 
+=== Visualize
+
+
+
 
 
 
