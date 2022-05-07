@@ -234,7 +234,9 @@ The idea here is to take the data that is in Kinesis Stream, trigger the Lambda 
 
 === Stream to DynamoDB Pipeline
 
+This pipeline is going to stream the data from Kinesis into DynamoDB.
 
+Having the data buffered into Kinesis, the data needs to be processed and sent to DynamoDB.
 ====
 ''''
 ====
