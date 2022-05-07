@@ -214,8 +214,14 @@ This is to simulate what big companies do in this situations, having databases a
 
 Pipelines are the main vehicle that makes data science happen. Pipelines make sure that the data flows from the moment data gets in (Ingestion) through the whole platform and make the data accessible to other systems, data analysts, data scientist and internal users.
 
-=== Data Ingestion Pipeline
+=== Data Ingestion Pipeline for high ingestion loads
 
+I am going to create a Client that simulates the streaming of the data. It has the CSV file from Kaggle.
+Then my aim is to send in rows from the CSV file as JSON into the url of the API gateway.
+
+The Client is going to basically take each row of the CSV file, convert it into a JSON object, then adds that JSON object (each row of the CSV file) into the body of the HTTP post, then post it to the API.
+
+Once it is on the API gateway, where the URL is hosted, there is going to be a Lambda Function triggered, then this Lambda Function is going to take the body of tke post and it is going to write it into Kinesis
 
 
 ====
