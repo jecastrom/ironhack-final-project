@@ -199,6 +199,14 @@ This project has a primary use case which is for the actual business and the use
 
 === Visualize
 
+* API's
+** Access for Apps, UIs.
+** Execute queries and transaction
+
+* Tableau
+** Business Intelligence tool
+** Installed on pc
+** Connects to Redshift
 
 
 
