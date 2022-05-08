@@ -171,7 +171,7 @@ Here we have Kinesis in the middle, a message queue. The way message queues work
 
 The Lambda Function is getting triggered by the API Gateway and it is going to send or produce the data string for Kinesis. So every message or every transaction or row that is coming in from the dataset that has been processed into JSON is going to be added into Kinesis. Finally we can have either a Lambda Function or we could have a Kinesis Firehose which will take the data back out.
 
-== Process
+=== Process
 
 image::https://user-images.githubusercontent.com/63274055/167196783-afbbef55-fe3e-4019-a9da-6de1ea264188.png[width=800]
 
