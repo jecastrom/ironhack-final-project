@@ -254,6 +254,10 @@ On the left side the data resides in DynamoDB Invoices Table and on the right si
 
 image::https://user-images.githubusercontent.com/63274055/167285824-2270ca70-1620-4e7c-8a9e-ce17e8ae6d0d.png[width=600]
 
+AWS Kinesis Firehose Delivery Stream offers efficiency and efficacy to process data in Kinesis. Firehose Delivery Stream basically docks on the Kinesis Data Stream and they can process the data further. Then the Delivery Stream automatically delivers the data to the Redshift Data Warehouse with not extra processing.
+
+So I am going to connect the Firehose to the Stream and the Firehose then writes the data into an intermediate S3 bucket. Once there in S3 Kinesis Firehose will trigger a copy to Redshift Function and that copies the complete content of the files into the Redshift table. Once the data is on Redshift we can connect to Tableau and access the data. 
+
 ====
 ''''
 ====
