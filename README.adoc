@@ -258,6 +258,8 @@ AWS Kinesis Firehose Delivery Stream is ideal to process data in Kinesis. Fireho
 
 So I am going to connect the Firehose to the Stream and the Firehose then writes the data into an intermediate S3 bucket. Once there in S3 Kinesis Firehose will trigger a copy to Redshift Function and that copies the complete content of the files into the Redshift table. Once the data is on Redshift we can connect to Tableau and access the data. 
 
+=== Batch Processing Pipeline
+
 ====
 ''''
 ====
