@@ -260,6 +260,8 @@ So I am going to connect the Firehose to the Stream and the Firehose then writes
 
 === Batch Processing Pipeline
 
+image::https://user-images.githubusercontent.com/63274055/167305636-a5c61110-548c-4cd2-b02e-40e2cb75ceaa.png[width=600]
+
 ====
 ''''
 ====
