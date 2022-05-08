@@ -262,6 +262,8 @@ So I am going to connect the Firehose to the Stream and the Firehose then writes
 
 image::https://user-images.githubusercontent.com/63274055/167305636-a5c61110-548c-4cd2-b02e-40e2cb75ceaa.png[width=600]
 
+To be able to handle those cases when hundreds of Gb of data need to be uploaded, feeding this data to the Stream Processing would be inefficient. Instead we can do this with a bulk import.
+
 ====
 ''''
 ====
