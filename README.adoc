@@ -246,7 +246,9 @@ Having the data buffered into Kinesis, the data needs to be processed and sent t
 image::https://user-images.githubusercontent.com/63274055/167271582-c47599d6-1227-455f-b5f3-761de17f3d8f.png[width=600]
 
 
-Here I will build an API to query items from an invoice
+Here I will build an API to query items from an invoice.
+
+On the left side the data resides in DynamoDB Invoices Table and on the right side is where the Client sits. The Client could be for example an app, an UI. So the Client makes a call onto the invoice API and tells it basically that is has an invoice number, now tell me all the items. Then the request gets processed by a Lambda Function which is going to look into DynamoDB, take the data and return it to the Client. The way I will do this is by sending the invoice number in the request parameter.
 
 ====
 ''''
