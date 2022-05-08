@@ -250,6 +250,10 @@ Here I will build an API to query items from an invoice.
 
 On the left side the data resides in DynamoDB Invoices Table and on the right side is where the Client sits. The Client could be for example an app, an UI. So the Client makes a call onto the invoice API and tells it basically that is has an invoice number, now tell me all the items. Then the request gets processed by a Lambda Function which is going to look into DynamoDB, take the data and return it to the Client. The way I will do this is by sending the invoice number in the request parameter.
 
+=== Visualization Pipeline Redshift Data Warehouse
+
+image::https://user-images.githubusercontent.com/63274055/167285824-2270ca70-1620-4e7c-8a9e-ce17e8ae6d0d.png[width=600]
+
 ====
 ''''
 ====
