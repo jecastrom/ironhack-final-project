@@ -252,7 +252,7 @@ On the left side the data resides in DynamoDB Invoices Table and on the right si
 
 === Visualization Pipeline Redshift Data Warehouse
 
-image::https://user-images.githubusercontent.com/63274055/167285824-2270ca70-1620-4e7c-8a9e-ce17e8ae6d0d.png[width=600]
+image::https://user-images.githubusercontent.com/63274055/167290091-e1b30c46-3111-40b7-9d66-31be449e6d28.png[width=600]
 
 AWS Kinesis Firehose Delivery Stream is ideal to process data in Kinesis. Firehose Delivery Stream basically docks on the Kinesis Data Stream and they can process the data further. Then the Delivery Stream automatically delivers the data to the Redshift Data Warehouse with not extra processing.
 
