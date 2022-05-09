@@ -7,7 +7,7 @@
 :script-url: 
 //:fn-xxx: Add the explanation foot note here bla bla
 :toc:
-:toc-title: Lab description: In this lab, you will....
+:toc-title: 
 :toc-placement!:
 :toclevels: 5
 ifdef::env-github[]
