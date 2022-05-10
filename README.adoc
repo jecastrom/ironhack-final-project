@@ -275,8 +275,25 @@ image::https://user-images.githubusercontent.com/63274055/167586007-b2bc62cf-5ea
 
 === Creating API Gateway
 
+image::https://user-images.githubusercontent.com/63274055/167670433-6d03d9ab-5085-40be-b63a-ffa46db139cb.png[width=600]
 
 
+On my AWS account, I selected API Gateway => Create API => Rest API => Build
+
+Then select settings:
+
+* Choose the protocol: REST
+* Create new API: New API
+* Settings:
+** API Name: myapi
+** Endpoint Type: Regional (Regional API are deployed in the current AWS region)
+
+Then Save API
+
+
+
+
+image::https://user-images.githubusercontent.com/63274055/167672051-17849b3d-09bf-441c-8ff5-befbb5ce2671.png[width=600]
 ====
 ''''
 ====
