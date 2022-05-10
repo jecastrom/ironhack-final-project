@@ -304,6 +304,8 @@ Second Resource Action I select is Create Method:
 
 Also in order for the Lambda Function to receive the body and the requests parameter I had to go into Integration Request again and configure Mapping Templates. Click on Add mapping Template and type `application/json`.
 
+Then in Generate Template I selected `Method request passthrough`
+
 
 
 image::https://user-images.githubusercontent.com/63274055/167672051-17849b3d-09bf-441c-8ff5-befbb5ce2671.png[width=600]
