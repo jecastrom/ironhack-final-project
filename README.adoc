@@ -268,7 +268,7 @@ To be able to handle those cases when hundreds of Gb of data need to be uploaded
 
 Creating the Lambda Function for API:
 
-Creating a Lambda Function with a new role that is allowed to write into Kinesis.
+Creating a Lambda Function with a new role to give it permission to write into Kinesis.
 
 image::https://user-images.githubusercontent.com/63274055/167586007-b2bc62cf-5ea0-45eb-99fb-fb93253d92d8.png[width=600]
 
