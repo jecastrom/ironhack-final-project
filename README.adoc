@@ -266,6 +266,11 @@ To be able to handle those cases when hundreds of Gb of data need to be uploaded
 
 == Data Ingestion Pipeline
 
+Creating the Lambda Function for API:
+
+image::https://user-images.githubusercontent.com/63274055/167586007-b2bc62cf-5ea0-45eb-99fb-fb93253d92d8.png[width=600]
+
+
 ====
 ''''
 ====
