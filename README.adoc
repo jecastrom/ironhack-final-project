@@ -315,6 +315,14 @@ image::https://user-images.githubusercontent.com/63274055/167672051-17849b3d-09b
 
 image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/kdatastream.gif[width=600]
 
+=== Setup IAM for API
+
+Here we make sure that the Lambda Function can actually write into Kinesis. 
+
+
+
+
+
 ====
 ''''
 ====
