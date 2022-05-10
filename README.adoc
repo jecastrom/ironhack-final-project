@@ -309,6 +309,12 @@ Then in Generate Template I selected `Method request passthrough`
 
 
 image::https://user-images.githubusercontent.com/63274055/167672051-17849b3d-09bf-441c-8ff5-befbb5ce2671.png[width=600]
+
+
+=== Setup Kinesis
+
+
+
 ====
 ''''
 ====
