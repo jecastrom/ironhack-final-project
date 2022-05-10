@@ -300,7 +300,7 @@ Click on Create Resource
 
 Second Resource Action I select is Create Method:
 
-* Next I add three methods: GET, POST, PUT and configure the Lambda Function in each Method going to Integration Request.
+* Next I add three methods: GET, POST, PUT and configure the Lambda Function (WriteKinesis) in each Method by going to Integration Request.
 
 
 
