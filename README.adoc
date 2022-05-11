@@ -321,8 +321,16 @@ Here we make sure that the Lambda Function can actually write into Kinesis.
 
 Added IAM policies to the Lambda Function:
 * AmazonKinesisFullAccess
-* Created a new policy called `MyKinesisWriteApiData` and added:
+** Created a new policy called `MyKinesisWriteApiData` and added:
 ** Kinesis => Write => PutRecord and PutRecords ==> Resources: All resources then add new policy to the WriteKinesis role.
+
+** Created new policy for the Lambda Function called `myGetDynamoDB` and added:
+** DynamoDB => Read => GetItem => All resources
+
+=== Create Ingestion Pipeline (Code)
+
+
+
 
 
 
