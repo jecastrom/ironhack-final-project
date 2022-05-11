@@ -352,7 +352,10 @@ def lambda_handler(event, context):
 #    method = mycontext.get("http-method")
     method = event['context']['http-method']
 
-# With this if else statement we are saying if the method that is coming in is a GET method then in the later stages we use DynamoDB
+# With this if else statement we are saying if the method that is coming in is a GET method then in the later # stages we use DynamoDB
+
+# If the method is POST we send in our data  
+
     if method == "GET":
         # TODO: write code...
         dynamo_client = boto3.client('dynamodb')
