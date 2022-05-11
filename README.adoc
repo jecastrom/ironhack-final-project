@@ -410,7 +410,8 @@ import pandas as pd
 import requests
 
 
-# URL of our endpoint
+# URL of our endpoint. After deploying the API and creating a Stage we 
+# can see the URL of the stage we are in.
 URL = "https://4tom9crui5.execute-api.us-east-1.amazonaws.com/P/hello"
 
 
