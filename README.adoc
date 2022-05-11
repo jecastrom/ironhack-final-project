@@ -319,6 +319,11 @@ image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/kdatast
 
 Here we make sure that the Lambda Function can actually write into Kinesis. 
 
+Added IAM policies to the Lambda Function:
+* AmazonKinesisFullAccess
+* Created a new policy called `MyKinesisWriteApiData` and added:
+** Kinesis => Write => PutRecord and PutRecords ==> Resources: All resources then add new policy to the WriteKinesis role.
+
 
 
 
