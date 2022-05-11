@@ -411,7 +411,7 @@ import requests
 
 
 # URL of our endpoint. After deploying the API and creating a Stage we 
-# can see the URL of the stage we are in.
+# can see the URL of the stage we are in. In this case this is the POST URL.
 URL = "https://4tom9crui5.execute-api.us-east-1.amazonaws.com/P/hello"
 
 
