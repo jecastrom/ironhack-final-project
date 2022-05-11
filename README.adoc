@@ -352,7 +352,8 @@ def lambda_handler(event, context):
 #    method = mycontext.get("http-method")
     method = event['context']['http-method']
 
-# With this if else statement we are saying if the method that is coming in is a GET method then in the later # stages we use DynamoDB
+# With this if else statement we are saying if the method that is 
+# coming in is a GET method then in the later # stages we use DynamoDB
 
 
 
@@ -372,7 +373,9 @@ def lambda_handler(event, context):
             'body': json.dumps(response['Item'])
            }
 
-# If the method is POST we send in our data. From the "event" we extract the body JSON, take this p_record string then we dump it into a recordstring variable.
+# If the method is POST we send in our data. From the "event" 
+# we extract the body JSON, take this p_record string then we dump 
+# it into a recordstring variable.
 
     elif method == "POST":
 
