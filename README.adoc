@@ -241,6 +241,8 @@ image::https://user-images.githubusercontent.com/63274055/167261665-f99cff9d-fe8
 
 The idea here is to take the data that is in Kinesis Stream, trigger the Lambda with it each and every time something is inserted into the Kinesis Data Stream then puts the data into a S3 bucket as a file.
 
+The main use case of this pipeline is to put data into a datalake so we can later on use this data in different processes.
+
 
 === Stream to DynamoDB Pipeline
 
