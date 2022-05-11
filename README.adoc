@@ -445,6 +445,8 @@ for i in data.index:
 
 === Testing the Data Ingestion Pipeline
 
+
+
 image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/test%20dip.gif[width=900]
 
 == Stream To Raw S3 Storage Pipeline
