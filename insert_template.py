@@ -3,7 +3,7 @@ import requests
 
 
 # URL of our endpoint
-URL = "https://4tom9crui5.execute-api.us-east-1.amazonaws.com/P/hello"
+URL = "https://xyy7qu6i5h.execute-api.us-east-1.amazonaws.com/p/hello"
 
 
 # read the testfile
