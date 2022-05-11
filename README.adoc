@@ -424,6 +424,10 @@ data = pd.read_csv('data/TestSample.csv', sep = ',')
 #print(response)
 
 # write all the rows from the testfile to the api as put request
+
+# Looping over the index of the data in the DataFrame and use 
+# every one of this lines, put them into a JSON then use it as an 
+# export for the URL
 for i in data.index:
     try:
         # convert the row to json
