@@ -119,7 +119,7 @@ Customer insights
 
 * Which tools and why
 
-* How do they work
+* How do the tools work
 
 * Why did I choose them
 
