@@ -453,6 +453,10 @@ image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/test%20
 
 == Stream To Raw S3 Storage Pipeline
 
+=== Setup S3 Bucket
+
+image::https://user-images.githubusercontent.com/63274055/167963196-a814c399-e63d-426b-aadd-82d3c5a51014.png[width=600]
+
 ====
 ''''
 ====
