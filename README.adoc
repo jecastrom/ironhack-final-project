@@ -410,7 +410,7 @@ import pandas as pd
 import requests
 
 
-# URL of your endpoint
+# URL of our endpoint
 URL = "https://4tom9crui5.execute-api.us-east-1.amazonaws.com/P/hello"
 
 
