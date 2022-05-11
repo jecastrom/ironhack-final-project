@@ -380,6 +380,8 @@ def lambda_handler(event, context):
         p_record = event['body-json']
         recordstring = json.dumps(p_record)
 
+# We create a client for Kinesis, put a record into Kinesis for the APiData stream.
+
         client = boto3.client('kinesis')
         response = client.put_record(
             StreamName='APIData',
