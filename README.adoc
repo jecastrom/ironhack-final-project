@@ -115,6 +115,16 @@ Highest invoices
 
 Customer insights
 
+== Used Tools
+
+* Which tools and why
+
+* How do they work
+
+* Why did I choose them
+
+* How did I set them up
+
 == Relational storage vs Non-relational storage
 
 This is a snapshot of the data we are going to deal with:
