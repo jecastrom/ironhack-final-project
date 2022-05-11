@@ -415,7 +415,7 @@ import requests
 URL = "https://4tom9crui5.execute-api.us-east-1.amazonaws.com/P/hello"
 
 
-#read the testfile
+#read the testfile with Pandas then goes into a DataFrame
 data = pd.read_csv('data/TestSample.csv', sep = ',')
 
 # write a single row from the testfile into the api
