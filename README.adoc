@@ -465,7 +465,14 @@ image::https://user-images.githubusercontent.com/63274055/168026755-35df6ea2-3f6
 
 === Creating Lambda For S3 Insert
 
-Created Lambda Function from Blueprint `kinesis-process-record-python`
+* Created Lambda Function from Blueprint `kinesis-process-record-python`. 
+* Added existing role `Lambda-Kinesis-S3-Writer`
+* The Kinesis trigger is the previous Kinesis Data Stream I named `APIData`.
+
+
+
+
+
 ====
 ''''
 ====
