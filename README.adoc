@@ -616,7 +616,7 @@ def lambda_handler(event, context):
 ```
 === Testing the Stream To DynamoDB Pipeline
 
-
+image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/dynamodb%20pipe.gif[width=800]
 
 ====
 ''''
