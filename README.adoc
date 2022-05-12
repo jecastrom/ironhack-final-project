@@ -529,11 +529,21 @@ image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/stream%
 
 == Building the Stream To DynamoDB Pipeline
 
+=== Setting Up DynamoDB
+
 On AWS DynamoDB I created two tables
 
 * Customers
 * Invoices
 image::https://user-images.githubusercontent.com/63274055/168077305-1a5a1bda-e36c-4342-b299-41461885fc2b.png[width=600]
+
+=== Setting up IAM For DynamoDB Stream
+
+
+image::https://user-images.githubusercontent.com/63274055/168082126-06ee21e2-5996-4a15-b3dd-5b5bfe34026d.png[width=600]
+
+
+
 ====
 ''''
 ====
