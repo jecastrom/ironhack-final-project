@@ -544,6 +544,8 @@ image::https://user-images.githubusercontent.com/63274055/168077305-1a5a1bda-e36
 image::https://user-images.githubusercontent.com/63274055/168082126-06ee21e2-5996-4a15-b3dd-5b5bfe34026d.png[width=600]
 
 
+=== Creating the DynamoDB Lambda
+
 
 ====
 ''''
