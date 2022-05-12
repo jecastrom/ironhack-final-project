@@ -459,7 +459,9 @@ image::https://user-images.githubusercontent.com/63274055/167963196-a814c399-e63
 
 === Configure IAM for S3
 
+Created a IAM role for a Lambda Function and added policies to it. 
 
+image::https://user-images.githubusercontent.com/63274055/168026755-35df6ea2-3f63-43bf-94ff-61dfc3edd2ef.png[width=600]
 
 ====
 ''''
