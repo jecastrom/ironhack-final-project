@@ -529,6 +529,11 @@ image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/stream%
 
 == Building the Stream To DynamoDB Pipeline
 
+On AWS DynamoDB I created two tables
+
+* Customers
+* Invoices
+
 ====
 ''''
 ====
