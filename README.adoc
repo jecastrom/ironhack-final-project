@@ -618,6 +618,10 @@ def lambda_handler(event, context):
 
 image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/dynamodb%20pipe.gif[width=900]
 
+== Building the Visualization API
+
+
+
 ====
 ''''
 ====
