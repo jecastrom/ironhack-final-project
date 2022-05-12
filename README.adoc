@@ -533,7 +533,7 @@ On AWS DynamoDB I created two tables
 
 * Customers
 * Invoices
-
+image::https://user-images.githubusercontent.com/63274055/168077305-1a5a1bda-e36c-4342-b299-41461885fc2b.png[width=600]
 ====
 ''''
 ====
