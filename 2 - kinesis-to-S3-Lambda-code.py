@@ -29,8 +29,8 @@ def lambda_handler(event, context):
         # Kinesis data is base64 encoded so here we encode it.
         # If running into the error: [ERROR] TypeError: sequence item 0: expected str instance, bytes found
         # then we add the encoding into UTF8:
-        #payload = base64.b64decode(record['kinesis']['data']).decode('utf-8')
-        payload = base64.b64decode(record['kinesis']['data'])
+        payload = base64.b64decode(record['kinesis']['data']).decode('utf-8')
+        #payload = base64.b64decode(record['kinesis']['data'])
 
         # appending each record to a list
         kinesisRecords.append(payload)
