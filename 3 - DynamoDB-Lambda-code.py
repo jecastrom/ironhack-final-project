@@ -37,7 +37,7 @@ def lambda_handler(event, context):
 
         # Create Inventory Row
         #############################
-
+        # Creating a dictionary for the invoice to get the invoice number
         inventory_key = dict()
         inventory_key.update(
             {'InvoiceNo': {"N": str(dict_record['InvoiceNo'])}})
