@@ -522,7 +522,9 @@ def lambda_handler(event, context):
     # returning how many records have been processed within the function
     return 'Successfully processed {} records.'.format(len(event['Records']))
 ```
+=== Testing the Stream To Raw S3 Storage Pipeline
 
+image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/stream%20to%20s3%20pp.gif[width=800]
 
 
 
