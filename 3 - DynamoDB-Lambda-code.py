@@ -6,11 +6,12 @@ from datetime import datetime
 
 
 def lambda_handler(event, context):
-
+    # Creating boto3 client for DynamoDB
     client = boto3.client('dynamodb')
 
     #print("Received event: " + json.dumps(event, indent=2))
     for record in event['Records']:
+
         # Kinesis data is base64 encoded so decode here
         t_record = base64.b64decode(record['kinesis']['data'])
 
@@ -26,10 +27,10 @@ def lambda_handler(event, context):
         customer_key = dict()
         customer_key.update(
             {'CustomerID': {"N": str(dict_record['CustomerID'])}})
-
+        # Text that is going to be written in the invoice number
         ex_customer = dict()
         ex_customer.update({str(dict_record['InvoiceNo']): {
-                           'Value': {"S": 'Some overview JSON for the UI goes here'}, "Action": "PUT"}})
+                           'Value': {"S": 'Invoice'}, "Action": "PUT"}})
 
         response = client.update_item(
             TableName='Customers', Key=customer_key, AttributeUpdates=ex_customer)
