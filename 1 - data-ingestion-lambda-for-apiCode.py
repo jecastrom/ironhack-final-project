@@ -36,7 +36,7 @@ def lambda_handler(event, context):
 
         client = boto3.client('kinesis')
         response = client.put_record(
-            StreamName='APIData',
+            StreamName='APIData1',
             Data=recordstring,
             PartitionKey='string'
         )
