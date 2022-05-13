@@ -622,7 +622,10 @@ image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/dynamod
 
 This API is to visualize the data residing in DynamoDB:
 
- I created the new lambda called `Get-data-from-DynamoDB`, same trigger and got assigned a role automatically. I added a new policy called "myGetDynamoDB" with permissions to read DynamoDB => GetItem to that new role.  On the API helloworld, on the GET method I changed the lambda function in the integration request to the new one `Get-data-from-DynamoDB`. 
+ I created the new lambda called `Get-data-from-DynamoDB`, same trigger and got assigned 
+ a role automatically. I added a new policy called "myGetDynamoDB" with permissions to read 
+ DynamoDB => GetItem to that new role.  On the API helloworld, on the GET method I changed the 
+ lambda function in the integration request to the new one `Get-data-from-DynamoDB`. 
 
 
 ```python
