@@ -45,6 +45,6 @@ def lambda_handler(event, context):
 
     # putting the file into the s3 bucket
     response = s3_client.put_object(
-        Body=ex_string, Bucket='stream-data-lake', Key=mykey)
+        Body=ex_string, Bucket='s3-data-lake-project', Key=mykey)
     # returning how many records have been processed within the function
     return 'Successfully processed {} records.'.format(len(event['Records']))
