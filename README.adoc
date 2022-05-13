@@ -757,6 +757,8 @@ image::https://user-images.githubusercontent.com/63274055/168334686-c0096b72-8d2
 COPY firehosetransactions FROM 's3://data-firehose-to-redshift/<manifest>' CREDENTIALS 'aws_iam_role=arn:aws:iam::<aws-account-id>:role/<role-name>' MANIFEST json 's3://data-firehose-to-redshift/jsonpaths.json';
 ```
 
+image::https://user-images.githubusercontent.com/63274055/168382099-a09cbf60-90ec-4c2e-897e-90a49a3dca9f.png[width=600]
+
 ====
 ''''
 ====
