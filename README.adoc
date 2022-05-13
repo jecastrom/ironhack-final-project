@@ -696,6 +696,9 @@ image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/visual%
 
 === Setting up Redshift Data Warehouse
 
+
+image::https://user-images.githubusercontent.com/63274055/168296872-37d1690b-03ce-47e5-a5d6-e1310583fe02.png[width=600]
+
 ====
 ''''
 ====
