@@ -729,7 +729,24 @@ image::https://user-images.githubusercontent.com/63274055/168320249-f727e567-e3e
 
 === Bucket and jsonpaths.json
 
-Created new S3 Bucket called `data-firehose-to-redshift`.
+Created new S3 Bucket called `data-firehose-to-redshift`. we need to help `Firehose` to make the transformation from the `JSON` we are putting in into the table in `Redshift`. This is because `Firehose` does not know how are the objects called in the `JSON` string; example CustomerID etc.
+
+So we need to add this guide on a `JSON` file on the S3 so that the incoming data can be detected.
+
+```json
+{
+  "jsonpaths": [
+      "$['InvoiceNo']",
+      "$['StockCode']",
+      "$['Description']",
+      "$['Quantity']",
+      "$['InvoiceDate']",
+      "$['UnitPrice']",
+      "$['CustomerID']",
+      "$['Country']"
+    ]
+}
+```
 
 
 
