@@ -709,6 +709,8 @@ image::https://user-images.githubusercontent.com/63274055/168301607-ecf54b9c-01e
 
 === Creating Redshift Tables
 
+In the Redshift query editor I created the table:
+
 ```sql
 create table firehosetransactions(
 	InvoiceNo int not null,
