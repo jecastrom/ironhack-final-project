@@ -703,7 +703,11 @@ image::https://user-images.githubusercontent.com/63274055/168296872-37d1690b-03c
 
 To make sure that Firehose can actually send data into Redshift we add an Inbound Rule allowing access to the IP address of Firehouse in my region 52.70.63.192/27.
 
+Created an Elastic IP and made the Redshift Cluster publicly accessible.
 
+image::https://user-images.githubusercontent.com/63274055/168301607-ecf54b9c-01e2-45c7-9923-64fb344e0233.png[width=600]
+
+=== Creating Redshift Tables
 
 
 
