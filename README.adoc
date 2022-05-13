@@ -627,6 +627,8 @@ This API is to visualize the data residing in DynamoDB:
  DynamoDB => GetItem to that new role.  On the API helloworld, on the GET method I changed the 
  lambda function in the integration request to the new one `Get-data-from-DynamoDB`. 
 
+ Invoke URL: https://2krjwwbp8d.execute-api.us-east-1.amazonaws.com/prod/hello
+
 
 ```python
 import json
@@ -685,6 +687,9 @@ def lambda_handler(event, context):
 ```
 === Testing the Visualization API with Postman
 
+https://2krjwwbp8d.execute-api.us-east-1.amazonaws.com/prod/hello?InvoiceNo=536365
+
+image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/visual%20dydb%20api.gif[width=900]
 
 ====
 ''''
