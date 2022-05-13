@@ -699,9 +699,12 @@ image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/visual%
 
 image::https://user-images.githubusercontent.com/63274055/168296872-37d1690b-03ce-47e5-a5d6-e1310583fe02.png[width=600]
 
-====
-''''
-====
+=== Setting up VPC security Group for Firehose
+
+To make sure that Firehose can actually send data into Redshift we add an Inbound Rule allowing access to the IP address of Firehouse in my region 52.70.63.192/27.
+
+
+
 
 
 
