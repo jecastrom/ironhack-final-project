@@ -751,6 +751,12 @@ image::https://user-images.githubusercontent.com/63274055/168334686-c0096b72-8d2
 
 === Configuring Firehose
 
+* Copy command from S3 to Redshift
+
+```
+COPY firehosetransactions FROM 's3://data-firehose-to-redshift/<manifest>' CREDENTIALS 'aws_iam_role=arn:aws:iam::<aws-account-id>:role/<role-name>' MANIFEST json 's3://data-firehose-to-redshift/jsonpaths.json';
+```
+
 ====
 ''''
 ====
