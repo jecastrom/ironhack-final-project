@@ -761,6 +761,10 @@ Set the buffer interval to 60 sec so I can see the logs sooner for testing.
 
 image::https://user-images.githubusercontent.com/63274055/168382099-a09cbf60-90ec-4c2e-897e-90a49a3dca9f.png[width=600]
 
+=== Testing the Data Ingestion Pipeline writing to Redshift
+
+image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/test%20redshift%20records.gif[width=800]
+
 ====
 ''''
 ====
