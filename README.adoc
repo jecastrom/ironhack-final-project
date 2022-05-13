@@ -713,7 +713,7 @@ In the Redshift query editor I created the table:
 
 ```sql
 create table firehosetransactions(
-	InvoiceNo int not null,
+	InvoiceNo varchar(200),
 	StockCode varchar(200) not null,
 	Description varchar(200) not null,
 	Quantity int not null,	
