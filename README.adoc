@@ -729,7 +729,7 @@ image::https://user-images.githubusercontent.com/63274055/168320249-f727e567-e3e
 
 === Bucket and jsonpaths.json
 
-
+Created new S3 Bucket called `data-firehose-to-redshift`.
 
 
 
