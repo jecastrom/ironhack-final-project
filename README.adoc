@@ -725,6 +725,14 @@ create table firehosetransactions(
 ```
 image::https://user-images.githubusercontent.com/63274055/168320249-f727e567-e3e5-4180-98aa-e5c0206a858c.png[width=600]
 
+
+
+=== Bucket and jsonpaths.json
+
+
+
+
+
 ====
 ''''
 ====
