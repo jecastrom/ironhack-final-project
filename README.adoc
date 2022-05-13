@@ -680,6 +680,8 @@ def lambda_handler(event, context):
         }
 
 ```
+=== Testing the Visualization API with Postman
+
 
 ====
 ''''
