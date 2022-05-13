@@ -749,6 +749,7 @@ So we need to add this guide on a `JSON` file on the S3 so that the incoming dat
 ```
 image::https://user-images.githubusercontent.com/63274055/168334686-c0096b72-8d2c-4eda-a3ef-88b7ccd6ed66.png[width=600]
 
+=== Configuring Firehose
 
 ====
 ''''
