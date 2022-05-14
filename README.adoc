@@ -768,6 +768,14 @@ image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/test%20
 
 === Debugging Redshift Streaming
 
+* Making a count of records in Redshift
+
+* From the API Gateway side: Debug
+** Is the data coming into the API gateway?
+** Is data coming into Kinesis?
+** Is data coming into the S3 folder of Firehose?
+** Is the copy of data being inserted into Redshift working?
+
 
 ====
 ''''
