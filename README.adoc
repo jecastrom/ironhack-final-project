@@ -774,8 +774,6 @@ Records written on S3 s3-data-lake-project:
 
 
 
-
-***********************************************************
 === Debugging Redshift Streaming
 
 * Making a count of records in Redshift
