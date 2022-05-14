@@ -778,6 +778,8 @@ image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/test%20
 
 Starting from the Redshift side:
 
+To see insert errors on Redshift:
+
 ====
 ''''
 ====
