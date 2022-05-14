@@ -765,6 +765,10 @@ image::https://user-images.githubusercontent.com/63274055/168382099-a09cbf60-90e
 
 image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/test%20redshift%20records.gif[width=800]
 
+
+=== Debugging Redshift Streaming
+
+
 ====
 ''''
 ====
