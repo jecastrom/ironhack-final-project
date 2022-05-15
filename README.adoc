@@ -777,7 +777,7 @@ Records written on S3 s3-data-lake-project: non
 
 === Debugging Redshift Streaming
 
-* Making a count of records in Redshift
+
 
 * From the API Gateway side: Debug
 ** Is the data coming into the API gateway?
