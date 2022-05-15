@@ -159,6 +159,8 @@ Raw data is going to live on S3, everything coming in will be sent to S3. Data w
 
 In terms of how I am going to visualize the data I opted for Tableau, with an API specially for visualization.
 
+image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/pipelines.jpg[width=800]
+
 === Client
 
 Setting up a Client to send the data:
