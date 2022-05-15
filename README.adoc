@@ -817,7 +817,7 @@ create table bulkimport(
 
 
 * In AWS Glue I create a Glue database I called `glue-transactionsdb`
-
+image::https://user-images.githubusercontent.com/63274055/168492814-f041f7b2-05d7-481a-9009-281c4ecc7438.png[width=600]
 
 ====
 ''''
