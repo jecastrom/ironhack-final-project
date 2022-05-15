@@ -830,7 +830,7 @@ image::https://user-images.githubusercontent.com/63274055/168493736-767097bd-a90
 ** `BulkImportCrawler`
 ** `RedshiftTransactionsCrawler`
 
-
+image::https://user-images.githubusercontent.com/63274055/168495470-dcba5eb2-3a0d-4709-a21f-81147d7a4471.png[width=800]
 ====
 ''''
 ====
