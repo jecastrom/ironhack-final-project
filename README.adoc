@@ -793,7 +793,7 @@ To see insert errors on Redshift: query Table `stl_load_errors`
 
 == Building a Batch Processing Pipeline with Glue
 
-
+AWS Glue is an ETL service that takes data from somewhere, extracts it, transforms it, then it loads it elsewhere. 
 ====
 ''''
 ====
