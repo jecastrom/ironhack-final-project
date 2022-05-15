@@ -791,7 +791,7 @@ Starting from the Redshift side:
 
 To see insert errors on Redshift: query Table `stl_load_errors`
 
-== Building a Batch Processing Pipeline
+== Building a Batch Processing Pipeline with Glue
 
 
 ====
