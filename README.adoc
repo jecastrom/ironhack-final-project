@@ -819,6 +819,16 @@ create table bulkimport(
 * In AWS Glue I create a Glue database I called `glue-transactionsdb`
 image::https://user-images.githubusercontent.com/63274055/168492814-f041f7b2-05d7-481a-9009-281c4ecc7438.png[width=600]
 
+*Before creating the crawlers I had to set the IAM policies
+
+** Created a role and added the policies:
+
+image::https://user-images.githubusercontent.com/63274055/168493736-767097bd-a90b-44c6-a7a0-b15cf126a780.png[width=800]
+
+* I create two crawlers that are going to crawl the data sources, one crawler for the bulkImport folder and one crawler for Redshift. This crawlers are going to populate the table within the data catalog.
+
+
+
 ====
 ''''
 ====
