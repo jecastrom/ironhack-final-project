@@ -169,7 +169,7 @@ image::https://user-images.githubusercontent.com/63274055/168581751-2ab06b7c-1a5
 
 Setting up a Client to send the data:
 
-image::https://user-images.githubusercontent.com/63274055/167126585-fea1d925-62df-42bf-97cd-b9a62a4efa9e.png[width=400]
+image::https://user-images.githubusercontent.com/63274055/167126585-fea1d925-62df-42bf-97cd-b9a62a4efa9e.png[width=800]
 
 === Connect
 
