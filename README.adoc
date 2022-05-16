@@ -779,7 +779,7 @@ Records written to Redshift: 98/1000
 
 Records written to DynamoDB: 98/1000
 
-Records written on S3 s3-data-lake-project: 1000
+Records written on S3 `s3-data-lake-project`: 1000
 
 
 
