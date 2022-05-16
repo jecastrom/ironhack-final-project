@@ -839,6 +839,13 @@ image::https://user-images.githubusercontent.com/63274055/168561528-04f473ca-4ba
 ** `RedshiftTransactionsCrawler`
 
 image::https://user-images.githubusercontent.com/63274055/168495470-dcba5eb2-3a0d-4709-a21f-81147d7a4471.png[width=600]
+
+=== Testing the Batch Processing Pipeline
+
+Running the Glue job:
+
+image::https://user-images.githubusercontent.com/63274055/168573413-8631241c-de04-4ca9-8d88-bfe0390ef728.png[width=600]
+
 ====
 ''''
 ====
