@@ -799,8 +799,6 @@ To see insert errors on Redshift: query Table `stl_load_errors`
 
 Here I have done batch processing with AWS Glue on a Bulk Import Pipeline. This is useful in cases when we get a big file and import it into Redshift. Basically we create a job that takes the data from S3 and writes it into Redshift.
 
-
-
 AWS Glue is an ETL service that takes data from somewhere, extracts it, transforms it, then it loads it elsewhere. 
 
 Glue also maps the structure of the data stored in the data source and creates a Glue Catalog.
