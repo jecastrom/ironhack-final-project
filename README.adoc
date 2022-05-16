@@ -777,9 +777,9 @@ Streaming test results:
 
 Records written to Redshift: 98/1000
 
-Records written to DynamoDB: 46/1000
+Records written to DynamoDB: 98/1000
 
-Records written on S3 s3-data-lake-project: non
+Records written on S3 s3-data-lake-project: 1000
 
 
 
