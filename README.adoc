@@ -94,7 +94,11 @@ Unit price and quantity field
 
 
 
-Main goal
+== Main goal:
+
+Build simple streaming pipeline to learn how AWS API Gateway / AWS Lambda works together.
+
+
 : User / Business
 
 * Transactions will be started in the e-Commerce platform, then this transactions must be, stored in a single location.
