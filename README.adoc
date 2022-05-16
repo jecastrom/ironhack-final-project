@@ -829,6 +829,10 @@ image::https://user-images.githubusercontent.com/63274055/168492814-f041f7b2-05d
 
 image::https://user-images.githubusercontent.com/63274055/168493736-767097bd-a90b-44c6-a7a0-b15cf126a780.png[width=600]
 
+** Created an VPC Endpoint to S3 so the Glue job can access S3 out of the VPC
+
+image::https://user-images.githubusercontent.com/63274055/168561528-04f473ca-4ba0-42a6-80d3-5f480579b9f6.png[width=600]
+
 * I create two crawlers that are going to crawl the data sources, one crawler for the bulkImport folder and one crawler for Redshift. This crawlers are going to populate the table within the data catalog.
 
 ** `BulkImportCrawler`
