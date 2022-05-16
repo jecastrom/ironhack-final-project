@@ -165,7 +165,7 @@ In terms of how I am going to visualize the data I opted for Tableau, with an AP
 
 https://github.com/jecastrom/ironhack-final-project/files/8699593/platform.pdf[Streaming Data Ingestion Platform on AWS PDF download]
 
-image::https://user-images.githubusercontent.com/63274055/168581751-2ab06b7c-1a57-4ca1-b528-a3fda66be38b.png[width=400]
+image::https://user-images.githubusercontent.com/63274055/168583335-f63a61bb-13d2-4208-9317-729237822721.jpg[width=400]
 
 === Client
 
