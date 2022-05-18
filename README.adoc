@@ -858,6 +858,8 @@ image::https://user-images.githubusercontent.com/63274055/168574185-7743b652-932
 
 == Demo High Volume Streaming Data Ingestion Platform on AWS
 
+<a href="#" onclick="window.location.reload(true);">
+
 image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/demo%20stream%20data%20platform.gif[width=900]
 
 ====
