@@ -790,7 +790,9 @@ Records written on S3 `s3-data-lake-project`: 1000
 ** Is data coming into Kinesis?
 ** Is data coming into the S3 folder of Firehose?
 ** Is the copy of data being inserted into Redshift working?
-** Look for any anomalies in the data, data types
+
+From the data side:
+** Look for any anomalies in the data, data types, null values
 
 Starting from the Redshift side:
 
@@ -798,7 +800,7 @@ To see insert errors on Redshift: query Table `stl_load_errors`
 
 
 
-TIP: I have noticed that in the dataset there were some invoice numbers that had a combination of numbers and letters. I have replaced all letters on the invoice numbers by a 9 and tested again with a csv file with 995 transactions to simulate the data streaming and It works!
+TIP: I have noticed that in the dataset there were some null values and invoice numbers that had a combination of numbers and letters. I have added a line of code on the ingestion to drop any row that contains at least 1 null value and replaced all letters on the invoice numbers by a 9 and tested again with a csv file with 995 transactions to simulate the data streaming and It works!
 
 == Building a Batch Processing Pipeline with Glue
 
