@@ -1,4 +1,4 @@
-= High Volume Streaming Data Ingestion Platform on AWS  - Final Project
+= High Volume Streaming Data Ingestion Platform on AWS
 :stylesheet: boot-darkly.css
 :linkcss: boot-darkly.css
 :image-url-ironhack: https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png
@@ -867,9 +867,9 @@ image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/demo%20
 
 //{script-url}[Solutions script only]
 
-xref:Lab-xxxx[Top Section]
+xref:High-Volume-Streaming-Data-Ingestion-Platform-on-AWS[Top Section]
 
-xref:Last-section[Bottom section]
+xref:Demo-High-Volume-Streaming-Data-Ingestion-Platform-on-AWS[Bottom section]
 
 //bla bla blafootnote:[{fn-xxx}]
 
