@@ -781,8 +781,6 @@ Records written to DynamoDB: 98/1000
 
 Records written on S3 `s3-data-lake-project`: 1000
 
-
-
 === Debugging Redshift Streaming
 
 * From the API Gateway side: Debug
