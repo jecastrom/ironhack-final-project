@@ -7,7 +7,7 @@ URL = "https://2krjwwbp8d.execute-api.us-east-1.amazonaws.com/prod/hello"
 
 
 # read the testfile
-df = pd.read_csv('data/data10.csv', sep=',')
+df = pd.read_csv('data/data1000.csv', sep=',')
 # Cleaning data dropping any row with any null value
 df.dropna(axis=0, how='any', inplace=True)
 data = df.copy()
