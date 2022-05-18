@@ -800,6 +800,10 @@ To see insert errors on Redshift: query Table `stl_load_errors`
 
 TIP: I have noticed that in the dataset there were some null values and invoice numbers that had a combination of numbers and letters. I have added a line of code on the ingestion to drop any row that contains at least 1 null value and replaced all letters on the invoice numbers by a 9 and tested again with a csv file with 995 transactions to simulate the data streaming and It works!
 
+== Demo High Volume Streaming Data Ingestion Platform on AWS
+
+image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/demo%20stream%20data%20platform.gif[width=900]
+
 == Building a Batch Processing Pipeline with Glue
 
 Here I have done batch processing with AWS Glue on a Bulk Import Pipeline. This is useful in cases when we get a big file and import it into Redshift. Basically we create a job that takes the data from S3 and writes it into Redshift.
