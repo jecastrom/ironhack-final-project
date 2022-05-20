@@ -868,7 +868,9 @@ image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/demo%20
 ====
 ''''
 ====
+== Project PowerPoint Deck
 
+https://1drv.ms/u/s!Ao2U_4ZZRUKwk7EXA4t54uLm5fnYJg?e=B8sb8K[Ironhack Data BootCamp Final Project Deck]
 
 //{script-url}[Solutions script only]
 
