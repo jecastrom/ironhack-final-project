@@ -877,7 +877,7 @@ https://1drv.ms/p/s!Ao2U_4ZZRUKwk7EYMukQkequucjxzA?e=Djls0v[Ironhack Data BootCa
 ====
 == Data Platform Diagram
 
-image::https://github.com/jecastrom/ironhack-final-project/blob/main/pic/project%20deck.gif[width=900]
+
 
 //{script-url}[Solutions script only]
 
