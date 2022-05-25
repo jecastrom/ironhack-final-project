@@ -1,7 +1,7 @@
 :stylesheet: boot-darkly.css
 :linkcss: boot-darkly.css
 :image-url-ironhack: https://github.com/jecastrom/ironhack-final-project/blob/main/pic/banner%20pro%201.png
-:image-ironlogo: :image-url-ironhack: https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png
+:image-ironlogo: https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png
 :description:
 //:fn-xxx: Add the explanation foot note here bla bla
 :toc:
