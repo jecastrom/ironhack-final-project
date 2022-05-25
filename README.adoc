@@ -1,7 +1,7 @@
 :stylesheet: boot-darkly.css
 :linkcss: boot-darkly.css
 :image-url-ironhack: https://github.com/jecastrom/ironhack-final-project/blob/main/pic/banner%20pro%201.png
-:my-name: Jorge Castro DAPT NOV2021
+:image-ironlogo: :image-url-ironhack: https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png
 :description:
 //:fn-xxx: Add the explanation foot note here bla bla
 :toc:
@@ -47,6 +47,21 @@ ifndef::env-github[]
 endif::[]
 
 image::{image-url-ironhack}[width=900]
+
+image::{image-ironlogo}[width=70]
+
+====
+''''
+====
+== About the project
+
+In this final project I am going to build a High Volume Streaming Data Ingestion Platform on AWS simulating the data stream of e-commerce transactions from a Kaggle dataset. The platform is made up of four data pipelines to handle data from the source to a single storage point and two data visualisation pipelines.
+
+To read the detailed step-by-step of my project, go to the https://github.com/jecastrom/ironhack-final-project/wiki[`Wiki`] section at the top of this page.
+
+====
+''''
+====
 
 
 
