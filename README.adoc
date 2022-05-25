@@ -54,11 +54,14 @@ image::{image-ironlogo}[width=70]
 ''''
 ====
 
+
 == About the project
 
 In this final project I am going to build a High Volume Streaming Data Ingestion Platform on AWS simulating the data stream of e-commerce transactions from a Kaggle dataset. The platform is made up of four data pipelines to handle data from the source to a single storage point and two data visualisation pipelines.
 
 To read the detailed step-by-step of my project, go to the https://github.com/jecastrom/ironhack-final-project/wiki[`Wiki`] section at the top of this page.
+
+
 
 ====
 ''''
