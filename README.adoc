@@ -161,11 +161,9 @@ As storage, I will opt for multiple options:
 
 Raw data is going to live on S3, everything coming in will be sent to S3. Data will be in a Non-SQL store, DynamoDB, the I will use Redshift as my data Warehouse.
 
-In terms of how I am going to visualize the data I opted for Tableau, with an API specially for visualization.
+In terms of how I am going to visualize the data I opted for Power BI, with an API specially for visualization.
 
-https://github.com/jecastrom/ironhack-final-project/files/8699593/platform.pdf[Streaming Data Ingestion Platform on AWS PDF download]
 
-image::https://user-images.githubusercontent.com/63274055/168583335-f63a61bb-13d2-4208-9317-729237822721.jpg[width=400]
 
 === Client
 
