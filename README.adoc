@@ -1,0 +1,52 @@
+:stylesheet: boot-darkly.css
+:linkcss: boot-darkly.css
+:image-url-ironhack: https://github.com/jecastrom/ironhack-final-project/blob/main/pic/banner%20pro%201.png
+:my-name: Jorge Castro DAPT NOV2021
+:description:
+//:fn-xxx: Add the explanation foot note here bla bla
+:toc:
+:toc-title: 
+:toc-placement!:
+:toclevels: 5
+ifdef::env-github[]
+:sectnums:
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:experimental:
+:table-caption!:
+:example-caption!:
+:figure-caption!:
+:idprefix:
+:idseparator: -
+:linkattrs:
+:fontawesome-ref: http://fortawesome.github.io/Font-Awesome
+:icon-inline: {user-ref}/#inline-icons
+:icon-attribute: {user-ref}/#size-rotate-and-flip
+:video-ref: {user-ref}/#video
+:checklist-ref: {user-ref}/#checklists
+:list-marker: {user-ref}/#custom-markers
+:list-number: {user-ref}/#numbering-styles
+:imagesdir-ref: {user-ref}/#imagesdir
+:image-attributes: {user-ref}/#put-images-in-their-place
+:toc-ref: {user-ref}/#table-of-contents
+:para-ref: {user-ref}/#paragraph
+:literal-ref: {user-ref}/#literal-text-and-blocks
+:admon-ref: {user-ref}/#admonition
+:bold-ref: {user-ref}/#bold-and-italic
+:quote-ref: {user-ref}/#quotation-marks-and-apostrophes
+:sub-ref: {user-ref}/#subscript-and-superscript
+:mono-ref: {user-ref}/#monospace
+:css-ref: {user-ref}/#custom-styling-with-attributes
+:pass-ref: {user-ref}/#passthrough-macros
+endif::[]
+ifndef::env-github[]
+:imagesdir: ./
+endif::[]
+
+image::{image-url-ironhack}[width=900]
+
+
+
