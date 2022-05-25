@@ -61,6 +61,7 @@ In this final project I am going to build a High Volume Streaming Data Ingestion
 
 To read the detailed step-by-step of my project, go to the https://github.com/jecastrom/ironhack-final-project/wiki[`Wiki`] section at the top of this page.
 
+image::https://user-images.githubusercontent.com/63274055/170212511-bbeeea04-2d49-4952-af45-3826cbc0a6d8.png[width=800]
 
 
 ====
